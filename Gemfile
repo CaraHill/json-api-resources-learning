@@ -28,6 +28,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   gem 'rspec-rails'
+  gem "rubocop", "~>0.42.0"
 end
 
 group :development do
